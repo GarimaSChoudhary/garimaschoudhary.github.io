@@ -1,15 +1,11 @@
 <!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Garima Choudhary's Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="css/responsive.css" rel="stylesheet">
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 	</head>
 	<body class="is-preload">
@@ -24,12 +20,13 @@
 				<div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 		
 				<ul class="nav-menu list-unstyled">
-				  <li><a href="#header" class="smoothScroll">Home</a></li>
-				  <li><a href="#about"  class="smoothScroll">About</a></li>
-				  <li><a href="#Projects" class="smoothScroll">Projects</a></li>
+				  <!-- <li><a href="#header" class="smoothScroll">Home</a></li> -->
+				  <li><a href="#one"  class="smoothScroll">About</a></li>
+				  <li><a href="#four" class="smoothScroll">Work Experience</a></li>
+				  <li><a href="#two" class="smoothScroll">Projects</a></li>
 				  <li><a href="Files/GarimaChoudhary_Resume_SDE_feb24.pdf" target="_blank" class="smoothScroll">Resume</a></li>
-				  <li><a href="https://github.com/GarimaSChoudhary" target="_blank" class="smoothScroll">My GitHub</a></li>
-				  <li><a href="#contact" class="smoothScroll">Contact</a></li>
+				  <!-- <li><a href="https://github.com/GarimaSChoudhary" target="_blank" class="smoothScroll">My GitHub</a></li> -->
+				  <li><a href="#three" class="smoothScroll">Contact</a></li>
 				</ul>
 		
 			  </div>
@@ -38,10 +35,11 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/Garima.jpeg" alt="" /></a>
-					<h1>I'm <span class="typed"></span></h1>
-<!-- 					<h1><strong>I am Garima Choudhary</strong>, an Engineer<br /> -->
-					Master of Science in Information Systems<br />
+					<!-- <a href="#" class="image avatar"><img src="images/Garima.jpeg" alt="" /></a> -->
+					<h1>I'm <span class="typed format"></span></h1>
+					<!-- <h1><strong>I am Garima Choudhary</strong>, an Engineer<br /> -->
+					Master of Science in Information Systems,<br />
+					Northeastern University
 					</h1>
 				</div>
 			</header>
@@ -67,11 +65,11 @@
 					</section>
 			<!-- // SKILLS BEGIN -->
 	<section id="skills">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
+		<!-- <div class="container">
+			<div class="row"> -->
+				<!-- <div class="col-md-12 text-center"> -->
 					<h2>Technical Skills.</h2>
-				</div>
+				<!-- </div> -->
 				<div><ul class="skills-list">
 					<li><i class="fab fa-html5 skill-icon"></i>HTML</li>
 					<li><i class="fab fa-css3-alt skill-icon"></i>CSS</li>
@@ -86,169 +84,100 @@
 
 					<li><i class="fab fa-figma skill-icon"></i>Figma</li>
 					<li><i class="fab fa-git skill-icon"></i>Git</li>
-					<li><i class="fab fa-docker skill-icon"></i>Docker</li>					<!-- Add more skills with appropriate icons -->
+					<li><i class="fab fa-docker skill-icon"></i>Docker</li>					
 				</ul>
 			</div>
-				
-				<!-- <div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="progress-box">
-						<p>Java
-							<span class="color-heading pull-right">95%</span>
-						</p>
-						<div class="progress">
-							<div class="progress-bar bg-color-custom-col1" role="progressbar" data-width="95"></div>
-						</div>
+				<!-- // SKILLS END -->
+			</section>
+			<!-- Four -->
+			<section id="four">
+				<header class="major">
+					<h2>Work Experience</h2>
+					<div class="row">
+						<ul> 
+							<li>
+								<h3><u>Intel Corporation | Software Engineer</u></h3>
+								<h4>Aug 2022 – Jan 2023</h4>
+								<p> Implemented an innovative data pipeline solution to enhance log visualization, 
+								leveraging the ELK stack (Elasticsearch, Logstash, and Kibana) within Docker infrastructure. 
+								Empowered teams to make data-driven decisions efficiently. </p>
+								<h4>Achievements:</h4>
+								<p><ul>
+								<li>Automated log handling processes, leading to a 15% improvement in operational efficiency.</li>
+								<li>Collaborated closely with three teams to design and implement grok patterns, seamlessly integrating the pipeline into the system.</li>
+								<li>Demonstrated strong teamwork and communication skills, ensuring a smooth and cohesive implementation process.</li>
+								</ul>
+							</p>
+							<h4>Technologies Used:</h4>	
+							<p><ul>
+								<li>ELK Stack (Elasticsearch, Logstash, Kibana)</li>
+								<li>Docker</li>
+								<li>Python</li>
+								<li>Grok patterns</li>
+								<li>Agile - Jira Atlassian</li>
+									</ul>
+							</p>
+						</li>
+						<li>
+							<h3><u>Tata Consultancy Services | Software Engineer</u></h3>
+							<h4>Jan 2019 – Aug 2021</h4>
+								<p> Developed the IGNIO AI cognitive network product for Digitate, collaborating with an Agile team of 500+ members. 
+									Independently handled product analysis to filter noisy data up to 97% and structured data using RESTful API. 
+									Communicated with clients and resolved issues using Java, J2EE, and Spring Boot. </p>
+								<h4>Achievements:</h4>
+								<p><ul>
+								<li>Executed ETL processing and microservices, operating on extensive databases like HBase and Postgres.</li>
+								<li>Refactored existing code with efficient algorithms and fixed 70+ bugs, enhancing application performance by 50%.</li>
+								<li>Enhanced knowledge of algorithms and data structures by building predictive analysis features for the product.</li>
+								</ul>
+							</p>
+							<h4>Technologies Used:</h4>	
+							<p><ul>
+								<li>Java, Spring Boot, Python</li>
+								<Li>HTML, CSS, Angular</Li>
+								<li>HBase, Postgres, Neo4j</li>
+								<li>RESTful API</li>
+								<li>RabbitMQ</li>
+								<li>Postman</li>
+								<li>ETL Processing, Microservices, Log Processing</li>
+									</ul>
+
+						</li>
+						</ul>
+						
 					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6 col-xs-12 skills-right">
-					<div class="progress-box">
-						<p>SQL
-							<span class="color-heading pull-right">95%</span>
-						</p>
-						<div class="progress">
-							<div class="progress-bar bg-color-custom-col3" role="progressbar" data-width="95"></div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6 col-xs-12 skills-right">
-					<div class="progress-box">
-						<p>HTML5 / CSS / JavaScript
-							<span class="color-heading pull-right">85%</span>
-						</p>
-						<div class="progress">
-							<div class="progress-bar bg-color-custom-col2" role="progressbar" data-width="85"></div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="progress-box">
-						<p>Python
-							<span class="color-heading pull-right">75%</span>
-						</p>
-						<div class="progress">
-							<div class="progress-bar bg-color-custom-col1" role="progressbar" data-width="75"></div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="progress-box">
-						<p>Node/ React/ Express
-							<span class="color-heading pull-right">70%</span>
-						</p>
-						<div class="progress">
-							<div class="progress-bar bg-color-custom-col2" role="progressbar" data-width="70"></div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6 col-xs-12 skills-right">
-					<div class="progress-box">
-						<p>MongoDB
-							<span class="color-heading pull-right">45%</span>
-						</p>
-						<div class="progress">
-							<div class="progress-bar bg-color-custom-col3" role="progressbar" data-width="45"></div>
-						</div>
-					</div>
-				</div>
-
-
-
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="progress-box">
-						<p>Android
-							<span class="color-heading pull-right">75%</span>
-						</p>
-						<div class="progress">
-							<div class="progress-bar bg-color-custom-col1" role="progressbar" data-width="75"></div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6 col-xs-12 skills-right">
-					<div class="progress-box">
-						<p>C
-							<span class="color-heading pull-right">60%</span>
-						</p>
-						<div class="progress">
-							<div class="progress-bar bg-color-custom-col3" role="progressbar" data-width="60"></div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="progress-box">
-						<p>Docker
-							<span class="color-heading pull-right">85%</span>
-						</p>
-						<div class="progress">
-							<div class="progress-bar bg-color-custom-col2" role="progressbar" data-width="85"></div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6 col-xs-12 skills-right">
-					<div class="progress-box">
-						<p>Linux / Bash
-							<span class="color-heading pull-right">60%</span>
-						</p>
-						<div class="progress">
-							<div class="progress-bar bg-color-custom-col3" role="progressbar" data-width="60"></div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="progress-box">
-						<p>C++
-							<span class="color-heading pull-right">70%</span>
-						</p>
-						<div class="progress">
-							<div class="progress-bar bg-color-custom-col1" role="progressbar" data-width="70"></div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<div class="progress-box">
-						<p>ETL
-							<span class="color-heading pull-right">55%</span>
-						</p>
-						<div class="progress">
-							<div class="progress-bar bg-color-custom-col2" role="progressbar" data-width="55"></div>
-						</div>
-					</div>
-				</div>-->
-
-			</div>
-		</div> 
-	</section>
-	<!-- // SKILLS END -->
-
+				<!-- </header>
+				<p> I am an experienced software engineer adept at developing scalable cloud-native applications. 
+					Skilled in full-stack development and proficient in utilizing diverse programming languages – Java, Python, SQL, NoSQL,
+					frameworks- Spring Boot, Angular, and cloud platforms- AWS, and debugging. Proven track record in understanding complex 
+					business processes and delivering impactful solutions through collaborative teamwork, innovative problem-solving, and agile 
+					methodologies. Engaged in the software development lifecycle to support the development, configuration, modification, and 
+					testing of large integrated business and enterprise application solutions.</p>
+				<ul class="actions">
+					<li><a href="Files\GarimaChoudhary_Resume_SDE_feb24.pdf" class="button" download><span>Resume</span> 
+						<i class="icon solid fa-download"></i></a></li>
+				</ul> -->
+			</section>
 				<!-- Two -->
 					<section id="two">
-						<h2>Work Experience</h2>
+						<h2>Projects</h2>
 						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
+							<article class="col-6 col-12 work-item">
 								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Magna sed consequat tempus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<h3>Cloud Computing using AWS</h3>
+								<p>Deployed a 3-tier RESTful web-service on AWS</p>
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
+							<article class="col-6 col-12 work-item">
 								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Ultricies lacinia interdum</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<h3>Predictive analysis using Python</h3>
+								<p>Predicted the effect of CO2 gas emissions on temperature in the next 20 years</p>
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
+							<article class="col-6 col-12 work-item">
 								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>Tortor metus commodo</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<h3>Management System</h3>
+								<p>Developed an web responsive application for college canteen.</p>
 							</article>
-							<article class="col-6 col-12-xsmall work-item">
+							<!-- <article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
 								<h3>Quam neque phasellus</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
@@ -262,10 +191,10 @@
 								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
 								<h3>Risus ornare lacinia</h3>
 								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
+							</article> -->
 						</div>
 						<ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
+							<li><a href="https://github.com/GarimaSChoudhary" class="button">Click for more Projects</a></li>
 						</ul>
 					</section>
 
